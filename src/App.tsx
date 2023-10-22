@@ -19,10 +19,10 @@ function App() {
           Learn React
         </a>
         <p>
-          You are using environment: {process.env.NODE_ENV}
-          The API URL is: {process.env.REACT_APP_API_URL}
-          The server URL is: {process.env.REACT_APP_PUBLIC_SERVER_URL}
-        </p>
+          You are using environment: {process.env.NODE_ENV}</p>
+          <p>The API URL is: {process.env.REACT_APP_API_URL}</p>
+          <p>The server URL is: {process.env.REACT_APP_PUBLIC_SERVER_URL}</p>
+
       </header>
     </div>
   );
